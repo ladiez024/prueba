@@ -1,0 +1,42 @@
+/* Ocultar imágenes */
+img {
+    display: none !important; /* No se imprimen imágenes */
+}
+
+/* Simplificar el diseño */
+body {
+    background: none; /* Quitar el color de fondo */
+    color: #000; /* Asegurar que el texto sea negro */
+}
+
+/* Asegurarse de que el contenido principal se imprima de manera clara */
+h1, h3, p {
+    font-size: 18pt; /* Tamaño de letra legible */
+}
+
+/* Ocultar elementos no necesarios para la impresión */
+header, .btn, .dropdown-menu {
+    display: none !important; /* Ocultar cabecera y botones */
+}
+
+/* Mostrar solo contenido principal */
+.container {
+    display: block !important; /* Asegurarse de que el contenido principal se muestre */
+}
+
+/* Asegurarse de que los enlaces sean visibles */
+a {
+    color: #000; /* Asegurar que los enlaces sean negros */
+    text-decoration: underline; /* Subrayar enlaces para mayor visibilidad */
+}
+
+/* Mostrar características durante la impresión */
+#caracteristicas {
+    display: block !important; /* Asegurarse de que se muestren las características */
+}
+
+/* Ajustes adicionales para la lista de características */
+.cs, .cs2 {
+    font-size: 12pt; /* Asegurar que el texto de las características sea legible */
+    margin-bottom: 3px; /* Espacio entre características */
+}
