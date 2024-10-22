@@ -1,87 +1,11 @@
-
-body.modo-claro{
-    background: linear-gradient(#5F7E9A,#C4D5E5);
-}
-body.modo-claro header {
-    background-color: rgba(185, 179, 179, 0.5); 
-}
-body.modo-claro h1 {
-    color:white;
+@font-face {
+    font-family: 'Soria';
+    src: url('fonts/soria.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-body.modo-claro h3 {
-    color:rgb(93, 92, 92);
-}
-
-body.modo-claro p {
-    color:rgb(53, 53, 53);
-}
-body.modo-claro a {
-    color: #C4D5E5;
-}
-body.modo-claro a:hover{
-    color:#5F7E9A;
-}
-
-
-body.modo-oscuro{
-    background: linear-gradient(#242e36,#7f8081);
-}
-body.modo-oscuro header {
-    background-color: rgba(175, 174, 174, 0.3); 
-}
-body.modo-oscuro h1 {
-    color:white;
-}
-body.modo-oscuro h3 {
-    color:rgb(198, 196, 196);
-}
-body.modo-oscuro p {
-    color:rgb(12, 12, 12);
-}
-body.modo-oscuro a {
-    color: #f9fafb;
-}
-body.modo-oscuro a:hover{
-    color:#a0a1a2;
-}
-
-body.modo-predeterminado{
-    background: linear-gradient(#c0df36,#849cf3);
-}
-body.modo-predeterminado header {
-    background-color: rgba(217, 224, 164, 0.5); 
-}
-body.modo-predeterminado h1 {
-    color:white;
-}
-
-body.modo-predeterminado h3 {
-    color:rgb(93, 92, 92);
-}
-
-body.modo-predeterminado p {
-    color:rgb(53, 53, 53);
-}
-body.modo-predeterminado a {
-    color:#285b23;
-}
-body.modo-predeterminado a:hover{
-    color: #a6f2b8;
-}
-
-img{
-    border:1px solid white;
-}
-
-#caracteristicas{
-    display: none;
-}
-
-#boton{
-    display: block;
-}
-
-#ocultar{
-    display: none;
+/* Usar la fuente en el proyecto */
+body {
+    font-family: 'Soria', sans-serif;
 }
