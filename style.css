@@ -12,3 +12,44 @@ body {
     font-family: 'Soria', sans-serif;
 }
 
+.encima {
+    position: absolute;
+    top: 20px; /* Ajusta la posición según tus necesidades */
+    left: -50px; /* Posiciona la imagen encima de parte8.png */
+    z-index: 1; /* Para que esté por encima */
+}
+
+.imagen8{
+    width: 100%;
+    height: auto;
+}
+
+.imagen7{
+    width: 100%;
+    height: auto;
+    margin-left:-40%;
+    margin-top:20%;
+}
+
+.imagen5{
+    width: 100%;
+    height: auto;
+    margin-top:-20%;
+    margin-left:-10%;
+}
+
+.imagen6{
+    width: 100%;
+    height: auto;
+    margin-top:50%;
+    margin-left:10%;
+}
+
+.imagen1{
+    width: 100%;
+    height: auto;
+    margin-top:-90%;
+}
+
+
+
