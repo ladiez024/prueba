@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'Soria';
-    src: url('./fonts/soria.ttf') format('truetype');
+    src: url('./fonts/soria.woff2') format('woff2'),
+    url('./fonts/soria.woff') format('woff'),
+    url('./fonts/soria.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
