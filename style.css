@@ -28,7 +28,7 @@ body {
     width: 100%;
     height: auto;
     margin-left:-40%;
-    margin-top:20%;
+    margin-top:-70%;
 }
 
 .imagen5{
@@ -52,4 +52,24 @@ body {
 }
 
 
+/* Tamaño de letra para pantallas pequeñas */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.3rem; /* Tamaño pequeño para pantallas pequeñas */
+    }
+}
+
+/* Tamaño de letra para pantallas medianas */
+@media (min-width: 769px) and (max-width: 992px) {
+    h2 {
+        font-size: 1.5rem; /* Tamaño intermedio para pantallas medianas */
+    }
+}
+
+/* Tamaño de letra para pantallas grandes */
+@media (min-width: 993px) {
+    h2 {
+        font-size: 2rem; /* Tamaño grande para pantallas grandes */
+    }
+}
 
