@@ -1,75 +1,67 @@
-@font-face {
-    font-family: 'Soria';
-    src: url('./fonts/soria.woff2') format('woff2'),
-    url('./fonts/soria.woff') format('woff'),
-    url('./fonts/soria.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+.title-1 {
+    font-family: haas-grotesk-ds-pro, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: .87;
 }
 
-/* Usar la fuente en el proyecto */
-body {
-    font-family: 'Soria', sans-serif;
+.title-1 {
+    font-size: 8vw;
+    z-index: 10;
 }
 
-.encima {
-    position: absolute;
-    top: 20px; /* Ajusta la posición según tus necesidades */
-    left: -50px; /* Posiciona la imagen encima de parte8.png */
-    z-index: 1; /* Para que esté por encima */
+.img8{
+    height: 50vh;
+    width: 75vh;
+    z-index: 0;
+}
+.img7{
+    height: 35vh;
+    width: 55vh;
+    position: relative;
+    top: -10vh;
+    left: 30vw;
+    z-index: 1;
+}
+.img1{
+    height: 15%;
+    width: 20%;
+    position: relative;
+    top:-150px;
+    left:55px;
+    z-index: 2;
+}
+.img2{
+    height: 10%;
+    width: 15%;
+    position: relative;
+    top:-250px;
+    left:-10px;
+    z-index: 1;
 }
 
-.imagen8{
-    width: 100%;
-    height: auto;
+.img5{
+    height: 10%;
+    width: 15%;
+    position: relative;
+    top:-80px;
+    left:-30px;
+    z-index: 1;
 }
 
-.imagen7{
-    width: 100%;
-    height: auto;
-    margin-left:-40%;
-    margin-top:-70%;
+.img3{
+    height: 30%;
+    width: 35%;
+    position: relative;
+    top:-330px;
+    left:120px;
+    z-index: 1;
 }
 
-.imagen5{
-    width: 100%;
-    height: auto;
-    margin-top:-20%;
-    margin-left:-10%;
+.img4{
+    height: 20%;
+    width: 30%;
+    position: relative;
+    top:-400px;
+    left: 30px;
+    z-index: 0;
 }
-
-.imagen6{
-    width: 100%;
-    height: auto;
-    margin-top:50%;
-    margin-left:10%;
-}
-
-.imagen1{
-    width: 100%;
-    height: auto;
-    margin-top:-90%;
-}
-
-
-/* Tamaño de letra para pantallas pequeñas */
-@media (max-width: 768px) {
-    h2 {
-        font-size: 1.3rem; /* Tamaño pequeño para pantallas pequeñas */
-    }
-}
-
-/* Tamaño de letra para pantallas medianas */
-@media (min-width: 769px) and (max-width: 992px) {
-    h2 {
-        font-size: 1.5rem; /* Tamaño intermedio para pantallas medianas */
-    }
-}
-
-/* Tamaño de letra para pantallas grandes */
-@media (min-width: 993px) {
-    h2 {
-        font-size: 2rem; /* Tamaño grande para pantallas grandes */
-    }
-}
-
